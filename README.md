@@ -71,7 +71,7 @@
    - Commit 的标题应为 `Add: [sitename] ( [url] )`，如 `Add: example blog ( https://example.com )`
 9.  完成上述步骤后，请新建一个 Pull Request。
    
-   - Pull Request 标题应为 `Add: [sitename] ( [url] )`，如 `Add: example blog ( https://example.com )`
+   - Pull Request 标题应为 `Add: [name] ( [url] )`，如 `Add: example name ( https://example.com )`
 10. 当你发起的 Pull Request 被 Review 并被通过、合并后，你的网站将会在 CDN 缓存更新后显示在 [友链页面](https://blog.chriskyo08.moe/friends/)。
 
 ---
