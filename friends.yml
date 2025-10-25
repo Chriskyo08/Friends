@@ -1,17 +1,23 @@
+- name: "only_matthew"
+  link: https://www.mirstar.net
+  slogan: "Create your own miracle!"
+  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/www.mirstar.net.png
+  banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/www.mirstar.net.jpg
+
 - name: "阮行止"
   link: https://www.ruanx.net
-  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/www.ruanx.net.png
   slogan: "Be the light of the world."
+  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/www.ruanx.net.png
   banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/www.ruanx.net.png
 
 - name: "Studying Father"
   link: https://studyingfather.com
-  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/studyingfather.com.png
   slogan: "在纷繁杂乱的世界里，独自寻找属于自己的光荣与梦想。"
+  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/studyingfather.com.png
   banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/studyingfather.com.png
 
 - name: "宝硕"
   link: https://baoshuo.ren
-  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/baoshuo.ren.png
   slogan: "即使是沉重的过去，也要接受它再继续向前迈进。"
+  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/baoshuo.ren.png
   banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/baoshuo.ren.png
