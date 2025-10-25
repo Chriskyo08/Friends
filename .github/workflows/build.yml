@@ -1,0 +1,51 @@
+name: Friends
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+  sync:
+    if: ${{ github.event_name == 'push' && github.repository_owner == 'Chriskyo08' }}
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: main
+          path: Friends
+      - name: Checkout Chriskyo08/Chriskyo08-blog
+        uses: actions/checkout@v3
+        with:
+          repository: Chriskyo08/Chriskyo08-blog
+          path: Chriskyo08-blog
+          token: ${{ secrets.CHRISKYO08_BLOG_TOKEN }}
+      - name: Copy Files
+        run: |
+          cp -rf Friends/friends.yml Chriskyo08-blog/source/_data/friends.yml
+      - id: get-commit-sha
+        run: |
+          id="${{ github.sha }}"
+          echo "id=${id:0:7}" >> $GITHUB_OUTPUT
+      - name: Upload
+        run: |
+          cd Chriskyo08-blog
+          git config --global user.name Chriskyo08Bot
+          git config --global user.email bot@chriskyo08.moe
+          git add source/_data/friends.yml
+          git commit -m "[Friends/${{ steps.get-commit-sha.outputs.id }}] Upload dist on $(date '+%Y-%m-%d %H:%M:%S')" --allow-empty
+          git push
