@@ -68,7 +68,7 @@
        slogan: "Slogan" # Slogan，请使用双引号包裹
        banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/example.com.png # Banner 的文件路径
      ```
-   - Commit 的标题应为 `Add: [sitename] ( [url] )`，如 `Add: example blog ( https://example.com )`
+   - Commit 的标题应为 `Add: [name] ( [url] )`，如 `Add: example name ( https://example.com )`
 9.  完成上述步骤后，请新建一个 Pull Request。
    
    - Pull Request 标题应为 `Add: [name] ( [url] )`，如 `Add: example name ( https://example.com )`
