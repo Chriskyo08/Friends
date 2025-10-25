@@ -38,8 +38,8 @@
      - [Banner](https://cdn.jsdelivr.net/gh/Chriskyo08/Chriskyo08@main/banner/banner.png)
      - 如果你的友链页面没有放 Logo 或 Banner 的地方就可以不用放了哦~
    - Slogan
-     - 简体中文：`太皱的纸飞机飞不远。`
-     - English: `A paper airplane that is too wrinkled won't fly far.`
+     - 简体中文：`看见未见的脉络，连接孤立的光点。`
+     - English: `The hidden order, the lights interwoven.`
 2. 准备一个自己站点的 Logo。
    - Logo 的外形应为正方形或圆形
    - 长度与宽度应小于 **`512px`**、大于等于 **`100px`**，以 `128px` 为佳
