@@ -42,7 +42,7 @@
      - English: `A paper airplane that is too wrinkled won't fly far.`
 2. 准备一个自己站点的 Logo。
    - Logo 的外形应为正方形或圆形
-   - 长度与宽度应小于 **`512px`** ，以 `128px` 为佳
+   - 长度与宽度应小于 **`512px`**、大于等于 **`100px`**，以 `128px` 为佳
    - 使用常见文件格式，如 **`png`（推荐）**、`jpg`、`svg` 等（不包括 `tiff`、`icns`）
    - 文件大小应小于 **512 KiB** ，以 256 KiB 以内为佳
    - Logo 应符合 Gravater **G 分级** 要求（即适合在任何网站上展示给任何年龄段的任何人）
@@ -62,7 +62,7 @@
 8. 修改 `friends.yml` 文件。
    - 按照如下格式将你的网站信息添加到 `links.yml` 文件的末尾：
      ```yml
-     - name: "Site Name" # 网站名称，请使用双引号包裹
+     - name: "Friend Name" #名称，请使用双引号包裹
        link: https://example.com # 网站链接
        avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/example.com.png # Logo 的文件路径
        slogan: "Slogan" # Slogan，请使用双引号包裹
