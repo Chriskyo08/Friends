@@ -1,14 +1,14 @@
 - name: "only_matthew"
   link: https://www.mirstar.net
   slogan: "Create your own miracle!"
-  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/www.mirstar.net.png
-  banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/www.mirstar.net.jpg
+  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/mirstar.net.png
+  banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/mirstar.net.jpg
 
 - name: "阮行止"
   link: https://www.ruanx.net
   slogan: "Be the light of the world."
-  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/www.ruanx.net.png
-  banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/www.ruanx.net.png
+  avatar: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/avatar/ruanx.net.png
+  banner: https://cdn.jsdelivr.net/gh/Chriskyo08/Friends@main/banner/ruanx.net.png
 
 - name: "Studying Father"
   link: https://studyingfather.com
